@@ -1,4 +1,4 @@
-import { TypedAPI } from "./api";
+import { TypedAPI } from "./typed-api";
 
 export const baseURL = "http://localhost:4000";
 

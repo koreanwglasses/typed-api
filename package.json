@@ -4,7 +4,18 @@
   "repository": "git@github.com:koreanwglasses/typed-api.git",
   "author": "koreanwglasses <koreanwglasses@gmail.com>",
   "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib"],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  },
   "dependencies": {
-    "await-to-js": "^3.0.0"
+    "await-to-js": "^3.0.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.3"
   }
 }
