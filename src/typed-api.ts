@@ -43,6 +43,7 @@ export function TypedAPI<
         api(url),
         removeUndefined({
           method: "POST",
+          credentials: "include",
           headers: body && {
             "Content-Type": "application/json",
           },
