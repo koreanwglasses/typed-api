@@ -1,6 +1,6 @@
 {
   "name": "@koreanwglasses/typed-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/koreanwglasses/typed-api.git"
