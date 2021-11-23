@@ -1,0 +1,10 @@
+{
+  "name": "typed-api",
+  "version": "1.0.0",
+  "repository": "git@github.com:koreanwglasses/typed-api.git",
+  "author": "koreanwglasses <koreanwglasses@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^3.0.0"
+  }
+}
