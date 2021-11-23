@@ -1,12 +1,17 @@
 {
-  "name": "typed-api",
+  "name": "@koreanwglasses/typed-api",
   "version": "1.0.0",
-  "repository": "git@github.com:koreanwglasses/typed-api.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koreanwglasses/typed-api.git"
+  },
   "author": "koreanwglasses <koreanwglasses@gmail.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "prepare": "yarn build",
     "build": "tsc"
@@ -17,5 +22,12 @@
   },
   "devDependencies": {
     "tsc": "^2.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/koreanwglasses/typed-api/issues"
+  },
+  "homepage": "https://github.com/koreanwglasses/typed-api#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
