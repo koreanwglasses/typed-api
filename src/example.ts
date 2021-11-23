@@ -13,7 +13,7 @@ export type API = {
   };
 };
 
-const {api, fetchAPI} = TypedAPI<API>(baseURL);
+const { api, fetchAPI } = TypedAPI<API>(baseURL);
 
 api("/connect"); // http://localhost:4000/connect
 api("/connect?userId=id"); // http://localhost:4000/connect?userId=id
